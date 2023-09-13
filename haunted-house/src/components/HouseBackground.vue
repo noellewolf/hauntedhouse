@@ -28,16 +28,28 @@
                 </div>
             </div>
         </div>
-        <div class="">
-
-        </div>
+        <Cloud class="cloud-sizing cloud-1"></Cloud>
+        <Cloud class="cloud-sizing cloud-2"></Cloud>
     </div>
 </template>
 
 <style scoped>
+.cloud-2 {
+    right: 60rem;
+    top: 6rem;
+}
+.cloud-1 {
+    right: 10rem;
+    top: 26rem;
+}
+.cloud-sizing {
+    width: 15rem;
+    height: 3rem;
+    position: absolute;
+}
 .moon {
-    width: 2rem;
-    height: 2rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     background: #667085;
     position:absolute;
@@ -82,3 +94,9 @@
     display: flex;
 }
 </style>
+
+<script setup>
+import Cloud from './interactive/Cloud.vue';
+
+
+</script>
