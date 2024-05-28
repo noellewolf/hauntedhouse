@@ -28,20 +28,13 @@
                 </div>
             </div>
         </div>
-        <Cloud class="cloud-sizing cloud-1"></Cloud>
-        <Cloud class="cloud-sizing cloud-2"></Cloud>
+        <Cloud class="cloud-sizing" right="10rem" top="26rem"></Cloud>
+        <Cloud class="cloud-sizing" right="60rem" top="6rem"></Cloud>
+        <Cloud class="cloud-sizing" right="80rem" top="20rem"></Cloud>
     </div>
 </template>
 
 <style scoped>
-.cloud-2 {
-    right: 60rem;
-    top: 6rem;
-}
-.cloud-1 {
-    right: 10rem;
-    top: 26rem;
-}
 .cloud-sizing {
     width: 15rem;
     height: 3rem;
