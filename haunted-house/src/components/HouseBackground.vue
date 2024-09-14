@@ -28,9 +28,9 @@
                 </div>
             </div>
         </div>
-        <Cloud class="cloud-sizing" right="10rem" top="26rem"></Cloud>
-        <Cloud class="cloud-sizing" right="60rem" top="6rem"></Cloud>
-        <Cloud class="cloud-sizing" right="80rem" top="20rem"></Cloud>
+        <Cloud class="cloud-sizing" style="right:10rem; top:26rem;"></Cloud>
+        <Cloud class="cloud-sizing" style="right:60rem; top:6rem;"></Cloud>
+        <Cloud class="cloud-sizing" style="right:80rem; top:20rem;"></Cloud>
     </div>
 </template>
 
